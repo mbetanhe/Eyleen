@@ -13,6 +13,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eyleen.UnitTest", "Eyleen.U
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eyleen.IntegrationTest", "Eyleen.IntegrationTest\Eyleen.IntegrationTest.csproj", "{9C93E3AD-31B5-41C5-A009-9A14F2E8349A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{EBA56D8D-DAE0-41C1-98AE-847EB6C656FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eyleen.WEB", "Eyleen.WEB\Eyleen.WEB.csproj", "{704E6BB5-394E-413C-AF87-746BAB6180FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eyleen.API", "Eyleen.API\Eyleen.API.csproj", "{77B2A408-1495-47DE-A5DD-E40F32E0467F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +41,14 @@ Global
 		{9C93E3AD-31B5-41C5-A009-9A14F2E8349A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C93E3AD-31B5-41C5-A009-9A14F2E8349A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C93E3AD-31B5-41C5-A009-9A14F2E8349A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{704E6BB5-394E-413C-AF87-746BAB6180FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{704E6BB5-394E-413C-AF87-746BAB6180FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{704E6BB5-394E-413C-AF87-746BAB6180FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{704E6BB5-394E-413C-AF87-746BAB6180FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77B2A408-1495-47DE-A5DD-E40F32E0467F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B2A408-1495-47DE-A5DD-E40F32E0467F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B2A408-1495-47DE-A5DD-E40F32E0467F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B2A408-1495-47DE-A5DD-E40F32E0467F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +56,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{501BA2D6-CC67-4958-9451-4B51AE06D68C} = {EAEC7655-C6B6-4DB9-B8D1-08455FCA9010}
 		{9C93E3AD-31B5-41C5-A009-9A14F2E8349A} = {EAEC7655-C6B6-4DB9-B8D1-08455FCA9010}
+		{704E6BB5-394E-413C-AF87-746BAB6180FF} = {EBA56D8D-DAE0-41C1-98AE-847EB6C656FD}
+		{77B2A408-1495-47DE-A5DD-E40F32E0467F} = {EBA56D8D-DAE0-41C1-98AE-847EB6C656FD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0C4C992-6F72-4706-ADB1-FDD445C63866}
